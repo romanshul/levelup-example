@@ -1,0 +1,127 @@
+.wrapper {
+    background: #0B1526 url("background.jpg") 0 0 no-repeat;
+}
+
+.inner-content {
+    max-width: 1920px;
+    background: linear-gradient(0deg, rgba(11,29,38,1) 29%, rgba(11,29,38,0) 62%);
+    min-height: 2000px;
+    padding: 64px 80px 120px 80px;
+}
+
+body {
+    background-color: #354147;
+    margin: 0;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header .navigation ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-header .navigation ul li {
+    margin: 0 20px;
+}
+
+.main-header a {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-header .account a {
+    display: block;
+    background-image: url("cart.png");
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    line-height: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.hero .social {
+    padding-top: 67px;
+}
+
+.hero .social .text {
+    position: relative;
+    top: -40px;
+    left: -24px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    transform: rotate(90deg);
+}
+
+.hero .social a {
+    margin-top: 24px;
+    display: block;
+}
+
+.hero .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hero .navigation ul li {
+    text-align: right;
+    border-right: 3px solid rgba(255, 255, 255, 0.5);
+    padding: 19px 32px 19px 0;
+}
+
+.hero .navigation ul li.active,
+.hero .navigation ul li:hover {
+    border-right-color: white;
+}
+
+.hero .navigation ul a {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
+.item .text {
+    position: relative;
+    padding-top: 140px;
+    padding-left: 150px;
+}
+
+.item .text .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 240px;
+    line-height: 240px;
+    color: white;
+    opacity: 0.1;
+}
